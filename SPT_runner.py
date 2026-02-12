@@ -1,3 +1,5 @@
+# shortest processing time first
+
 from generator import generate_instances
 from job_shop_lib.graphs import JobShopGraph
 from job_shop_lib.dispatching.feature_observers import FeatureObserverType

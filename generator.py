@@ -3,8 +3,8 @@ from job_shop_lib import JobShopInstance, Operation
 
 import random
 
-def generate_instances():
-    random.seed(400)
+def generate_instances(seed = 400):
+    random.seed(seed)
 
     instance_list = []
     for job_number in [5,10,20,40,60]:
