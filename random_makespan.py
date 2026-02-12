@@ -5,6 +5,10 @@ from job_shop_lib import JobShopInstance
 from job_shop_lib.benchmarking import load_benchmark_instance
 from job_shop_lib.graphs import build_disjunctive_graph
 
+import torch
+import torch.nn as nn
+from torch_geometric.nn import GCNConv, global_mean_pool
+
 from job_shop_lib.reinforcement_learning import (
     # MakespanReward,
     SingleJobShopGraphEnv,
@@ -19,7 +23,11 @@ from job_shop_lib.dispatching.feature_observers import (
 from job_shop_lib.dispatching import DispatcherObserverConfig
 
 
-def get_makespan_gnn(instance: JobShopInstance, name="", render=False):
+
+def get_makespan_random(instance: JobShopInstance, name="", render=False):
+    '''
+    a random scheduler
+    '''
 
     if name != "":
         instance.name = name
