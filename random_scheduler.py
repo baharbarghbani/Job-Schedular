@@ -1,6 +1,7 @@
 import random
 from job_shop_lib import JobShopInstance
 import matplotlib.pyplot as plt
+import generator
 
 def random_shuffler(instance):
     random.seed(400)
@@ -35,11 +36,7 @@ def random_scheduler(instance : JobShopInstance):
 
 if __name__ == "__main__":
     # Example usage
-    from job_shop_lib.generation import GeneralInstanceGenerator
-    generator = GeneralInstanceGenerator(
-        duration_range=(1, 10), seed=42, num_jobs=3, num_machines=4
-    )
-    random_instance = generator.generate()
+    random_instance = generator.generate_instances()[0]
     schedule = random_scheduler(random_instance)
     for job in random_instance.jobs:
         print(job)
