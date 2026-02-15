@@ -1,13 +1,13 @@
-# use evaluate_gnn_policy(instance) function
+# Improved GNN Policy for Job Shop Scheduling - Simplified
+# Minimal output version: train, evaluate, save
 
 import random
-import time
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv
+from torch_geometric.nn import GCNConv, global_mean_pool
 from job_shop_lib.reinforcement_learning import ObservationSpaceKey
-from generator import generate_instances
+from generator import generate_general_instances
 from job_shop_lib.graphs import JobShopGraph
 from job_shop_lib.dispatching.feature_observers import FeatureObserverType
 from job_shop_lib.reinforcement_learning import RenderConfig
@@ -16,22 +16,60 @@ import numpy as np
 import os
 
 
-class SimpleGNNPolicy(nn.Module):
-    def __init__(self, input_dim=6, hidden_dim=32):
+class ImprovedGNNPolicy(nn.Module):
+    """Enhanced GNN with value head and deeper architecture."""
+    
+    def __init__(self, input_dim=6, hidden_dim=64, num_layers=3):
         super().__init__()
-        self.gcn1 = GCNConv(input_dim, hidden_dim)
-        self.gcn2 = GCNConv(hidden_dim, hidden_dim)
-        self.policy = nn.Linear(hidden_dim, 1)
+        
+        # Multi-layer GCN
+        self.convs = nn.ModuleList()
+        self.convs.append(GCNConv(input_dim, hidden_dim))
+        for _ in range(num_layers - 1):
+            self.convs.append(GCNConv(hidden_dim, hidden_dim))
+        
+        # Layer normalization for stability
+        self.norms = nn.ModuleList([nn.LayerNorm(hidden_dim) for _ in range(num_layers)])
+        
+        # Separate policy and value heads
+        self.policy_head = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, 1)
+        )
+        
+        # Value function for baseline
+        self.value_head = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, 1)
+        )
 
-    def forward(self, x, edge_index, ready_mask):
-        h = F.relu(self.gcn1(x, edge_index))
-        h = F.relu(self.gcn2(h, edge_index))
-        logits = self.policy(h).squeeze(-1)
+    def forward(self, x, edge_index, ready_mask, batch=None):
+        # Multi-layer GCN with residual connections
+        h = x
+        for i, (conv, norm) in enumerate(zip(self.convs, self.norms)):
+            h_new = F.relu(norm(conv(h, edge_index)))
+            if i > 0 and h.shape == h_new.shape:
+                h = h + h_new  # Residual connection
+            else:
+                h = h_new
+        
+        # Policy logits
+        logits = self.policy_head(h).squeeze(-1)
+        logits = logits.clone()
         logits[~ready_mask] = -1e9
-        return F.softmax(logits, dim=0)
+        
+        # Value estimate (global pooling)
+        if batch is None:
+            batch = torch.zeros(h.shape[0], dtype=torch.long)
+        value = self.value_head(global_mean_pool(h, batch)).squeeze()
+        
+        return logits, value
 
 
 def make_env(instance, render_mode=None):
+    """Create job shop environment."""
     graph = JobShopGraph(instance)
     return SingleJobShopGraphEnv(
         job_shop_graph=graph,
@@ -51,11 +89,14 @@ def make_env(instance, render_mode=None):
 
 
 def obs_to_gnn_input(obs, info):
-    # The operations matrix contains per-operation features
+    """Convert observation to GNN input format with feature normalization."""
     operations = obs[ObservationSpaceKey.OPERATIONS.value]
-    
-    # Convert to torch tensor
     x = torch.tensor(operations, dtype=torch.float32)
+    
+    # Normalize features (except binary ones)
+    for i in [1, 2, 4, 5]:  # Normalize continuous features
+        if x[:, i].max() > 0:
+            x[:, i] = x[:, i] / (x[:, i].max() + 1e-8)
     
     # Create ready mask
     available_ops = info["available_operations_with_ids"]
@@ -63,213 +104,205 @@ def obs_to_gnn_input(obs, info):
     for op_id, _, _ in available_ops:
         ready_mask[op_id] = True
     
-    # Get edge index (graph structure)
     edge_index = torch.tensor(obs[ObservationSpaceKey.EDGE_INDEX.value], dtype=torch.long)
     
     return x, edge_index, ready_mask, available_ops
 
 
-def gnn_action(policy, obs, info):
+def sample_action(policy, obs, info):
+    """Sample action from policy."""
     x, edge_index, ready_mask, available_ops = obs_to_gnn_input(obs, info)
-    probs = policy(x, edge_index, ready_mask)
     
-    valid_op_ids = [op_id for op_id, _, _ in available_ops]
-    valid_probs = probs[valid_op_ids]
-    valid_probs = valid_probs / valid_probs.sum()
+    logits, value = policy(x, edge_index, ready_mask)
     
-    dist = torch.distributions.Categorical(valid_probs)
-    action_idx = dist.sample()
-    op_id, machine_id, job_id = available_ops[action_idx.item()]
+    # Sample from categorical distribution
+    probs = F.softmax(logits, dim=0)
+    dist = torch.distributions.Categorical(probs)
     
-    return (job_id, machine_id), dist.log_prob(action_idx)
+    sampled_node = dist.sample()
+    log_prob = dist.log_prob(sampled_node)
+    entropy = dist.entropy()
+    
+    # Map back to action
+    for op_id, machine_id, job_id in available_ops:
+        if op_id == sampled_node.item():
+            return (job_id, machine_id), log_prob, entropy, value
+    
+    # Fallback
+    op_id, machine_id, job_id = available_ops[0]
+    return (job_id, machine_id), log_prob, entropy, value
 
 
-def greedy_gnn_action(policy, obs, info):
+def greedy_action(policy, obs, info):
+    """Select greedy action for evaluation."""
     x, edge_index, ready_mask, available_ops = obs_to_gnn_input(obs, info)
     
     with torch.no_grad():
-        probs = policy(x, edge_index, ready_mask)
+        logits, _ = policy(x, edge_index, ready_mask)
+        best_node = torch.argmax(logits).item()
     
-    valid_op_ids = [op_id for op_id, _, _ in available_ops]
-    valid_probs = probs[valid_op_ids]
-    best_idx = torch.argmax(valid_probs).item()
-    op_id, machine_id, job_id = available_ops[best_idx]
+    for op_id, machine_id, job_id in available_ops:
+        if op_id == best_node:
+            return (job_id, machine_id)
     
+    op_id, machine_id, job_id = available_ops[0]
     return (job_id, machine_id)
 
 
 def train_gnn_policy(
     training_instances,
-    num_train_episodes=500,
-    hidden_dim=32,
+    num_episodes=1000,
+    hidden_dim=64,
+    num_layers=3,
     learning_rate=1e-3,
-    save_path="gnn_policy.pt",
-    verbose=True
+    entropy_coef=0.01,
+    value_coef=0.5,
+    gamma=0.99,
+    save_path="gnn_policy_improved.pt"
 ):
-    """
-    Train a GNN policy on the given training instances.
-    
-    Args:
-        training_instances: List of JobShopInstance objects for training
-        num_train_episodes: Number of training episodes
-        hidden_dim: Hidden dimension for GNN layers
-        learning_rate: Learning rate for optimizer
-        save_path: Path to save the trained model
-        verbose: Whether to print training progress
-    
-    Returns:
-        policy: Trained GNN policy
-    """
-    # Determine input dimension from first instance
+    """Train GNN policy with Actor-Critic."""
+    # Get input dimension
     env_test = make_env(training_instances[0])
     obs_test, _ = env_test.reset()
     input_dim = obs_test[ObservationSpaceKey.OPERATIONS.value].shape[1]
     
-    # Initialize policy and optimizer
-    policy = SimpleGNNPolicy(input_dim=input_dim, hidden_dim=hidden_dim)
+    # Initialize policy
+    policy = ImprovedGNNPolicy(
+        input_dim=input_dim, 
+        hidden_dim=hidden_dim,
+        num_layers=num_layers
+    )
     optimizer = torch.optim.Adam(policy.parameters(), lr=learning_rate)
     
-    if verbose:
-        print(f"Training GNN policy for {num_train_episodes} episodes...")
-        print(f"Input dimension: {input_dim}")
-        print(f"Hidden dimension: {hidden_dim}")
-        print(f"Training on {len(training_instances)} instances")
-        print(f"Model will be saved to: {save_path}")
+    # Track performance
+    all_makespans = []
+    baseline_makespan = None
     
-    # Training loop
-    for episode in range(num_train_episodes):
-        # Sample random training instance
-        train_instance = training_instances[episode % len(training_instances)]
-        env = make_env(train_instance)
+    for episode in range(num_episodes):
+        # Sample instance
+        instance = training_instances[episode % len(training_instances)]
+        env = make_env(instance)
         
         obs, info = env.reset()
         log_probs = []
-        rewards = []
+        values = []
+        entropies = []
         done = False
         
         # Collect trajectory
         while not done:
-            action, logp = gnn_action(policy, obs, info)
-            obs, reward, done, _, info = env.step(action)
+            action, logp, ent, val = sample_action(policy, obs, info)
+            obs, _, done, _, info = env.step(action)
             log_probs.append(logp)
-            rewards.append(reward)
+            entropies.append(ent)
+            values.append(val)
         
-        # Calculate return
-        R = sum(rewards)
+        # Get final makespan
+        makespan = env.current_makespan()
+        all_makespans.append(makespan)
         
-        # REINFORCE loss
-        loss = -R * torch.stack(log_probs).sum()
+        # Update baseline (exponential moving average)
+        if baseline_makespan is None:
+            baseline_makespan = makespan
+        else:
+            baseline_makespan = 0.99 * baseline_makespan + 0.01 * makespan
         
+        # Compute advantage
+        advantage = -(makespan - baseline_makespan) / (baseline_makespan + 1e-8)
+        
+        # Proper shape handling
+        value_pred = torch.stack(values).mean()  # Scalar
+        value_target = torch.tensor(advantage, dtype=torch.float32)  # Scalar
+        
+        # Compute losses
+        policy_loss = -(torch.stack(log_probs).sum() * advantage)
+        value_loss = F.mse_loss(value_pred, value_target)
+        entropy_loss = -torch.stack(entropies).mean()
+        
+        loss = policy_loss + value_coef * value_loss + entropy_coef * entropy_loss
+        
+        # Update
         optimizer.zero_grad()
         loss.backward()
+        torch.nn.utils.clip_grad_norm_(policy.parameters(), max_norm=0.5)
         optimizer.step()
-        
-        if verbose and episode % 50 == 0:
-            makespan = env.current_makespan()
-            print(f"Episode {episode}/{num_train_episodes} | Makespan: {makespan} | Return: {R:.2f}")
     
-    # Save the trained model
+    # Save model
+    final_avg = np.mean(all_makespans[-100:])
+    best_makespan = min(all_makespans)
     torch.save({
         'model_state_dict': policy.state_dict(),
         'input_dim': input_dim,
         'hidden_dim': hidden_dim,
+        'num_layers': num_layers,
+        'final_avg_makespan': float(final_avg),
+        'best_makespan': float(best_makespan),
+        'all_makespans': [float(m) for m in all_makespans],
     }, save_path)
-    
-    if verbose:
-        print(f"\nTraining complete! Model saved to {save_path}")
     
     return policy
 
 
-def evaluate_gnn_policy(
-    instance,
-    model_path="gnn_policy.pt",
-    render_mode=None,
-    verbose=True
-):
-    """
-    Evaluate a trained GNN policy on a given instance.
-    
-    Args:
-        instance: JobShopInstance to evaluate on
-        model_path: Path to the saved model
-        render_mode: Rendering mode (e.g., "save_gif")
-        verbose: Whether to print evaluation results
-    
-    Returns:
-        makespan: Final makespan achieved by the policy
-    """
-    # Load model checkpoint
+def evaluate_gnn_policy(instance, model_path="gnn_policy_improved.pt"):
+    """Evaluate trained policy."""
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"Model file not found: {model_path}")
     
-    checkpoint = torch.load(model_path)
+    checkpoint = torch.load(model_path, weights_only=False)
+    
     input_dim = checkpoint['input_dim']
     hidden_dim = checkpoint['hidden_dim']
+    num_layers = checkpoint.get('num_layers', 3)
     
-    # Initialize policy and load weights
-    policy = SimpleGNNPolicy(input_dim=input_dim, hidden_dim=hidden_dim)
+    policy = ImprovedGNNPolicy(
+        input_dim=input_dim, 
+        hidden_dim=hidden_dim,
+        num_layers=num_layers
+    )
     policy.load_state_dict(checkpoint['model_state_dict'])
-    policy.eval()  # Set to evaluation mode
+    policy.eval()
     
-    if verbose:
-        print(f"Loaded model from {model_path}")
-        print(f"Input dimension: {input_dim}, Hidden dimension: {hidden_dim}")
-        print("Evaluating on instance...")
-    
-    # Evaluate on the instance
-    env = make_env(instance, render_mode=render_mode)
+    env = make_env(instance)
     obs, info = env.reset()
     done = False
     
     while not done:
-        action = greedy_gnn_action(policy, obs, info)
-        obs, reward, done, _, info = env.step(action)
+        action = greedy_action(policy, obs, info)
+        obs, _, done, _, info = env.step(action)
     
-    makespan = env.current_makespan()
-    
-    if verbose:
-        print(f"\n{'='*50}")
-        print(f"Final Makespan: {makespan}")
-        print(f"{'='*50}")
-    
-    if render_mode:
-        env.render()
-    
-    return makespan
+    return env.current_makespan()
 
 
-# Example usage
-if __name__ == "__main__":
-    # Generate instances
-    all_instances = generate_instances(seed=320)
+# Main execution
+# if __name__ == "__main__":
+#     # Generate instances
+#     all_instances = generate_general_instances(num_instances=150, seed=320)
+#     training_instances = all_instances[:-5]
+#     test_instances = all_instances[-5:]
     
-    # Split into training and test
-    training_instances = random.sample(all_instances[:-2], len(all_instances[:-2]))  # Use first 100 for training
-    test_instance = all_instances[-2] 
+#     # Train
+#     print("Training GNN policy...")
+#     trained_policy = train_gnn_policy(
+#         training_instances=training_instances,
+#         num_episodes=1000,
+#         hidden_dim=64,
+#         num_layers=3,
+#         learning_rate=1e-3,
+#         entropy_coef=0.01,
+#         value_coef=0.5,
+#         save_path="gnn_policy_improved.pt"
+#     )
     
-    # Phase 1: Training
-    print("="*60)
-    print("PHASE 1: TRAINING")
-    print("="*60)
-    trained_policy = train_gnn_policy(
-        training_instances=training_instances,
-        num_train_episodes=5000,
-        hidden_dim=32,
-        learning_rate=1e-3,
-        save_path="gnn_policy.pt",
-        verbose=True
-    )
+#     # Evaluate on test set
+#     test_makespans = []
+#     for instance in test_instances:
+#         makespan = evaluate_gnn_policy(
+#             instance=instance,
+#             model_path="gnn_policy_improved.pt"
+#         )
+#         test_makespans.append(makespan)
     
-    # Phase 2: Evaluation
-    print("\n" + "="*60)
-    print("PHASE 2: EVALUATION")
-    print("="*60)
-    final_makespan = evaluate_gnn_policy(
-        instance=test_instance,
-        model_path="gnn_policy.pt",
-        render_mode="save_gif",
-        verbose=True
-    )
-    
-    print(f"\nGNN Scheduler achieved makespan: {final_makespan}")
+#     # Print final results
+#     print(f"Training complete. Model saved to: gnn_policy_improved.pt")
+#     print(f"Test avg makespan: {np.mean(test_makespans):.2f}")
+#     print(f"Test best: {min(test_makespans):.2f}")
