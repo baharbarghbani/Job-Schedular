@@ -1,0 +1,7869 @@
+{
+  "job0_op0": {
+    "duration": 65,
+    "machine": [
+      9
+    ],
+    "job_id": 0,
+    "operation_id": 0,
+    "neighbors": [
+      "job0_op1",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job0_op1": {
+    "duration": 15,
+    "machine": [
+      19
+    ],
+    "job_id": 0,
+    "operation_id": 1,
+    "neighbors": [
+      "job0_op2",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job0_op2": {
+    "duration": 47,
+    "machine": [
+      17
+    ],
+    "job_id": 0,
+    "operation_id": 2,
+    "neighbors": [
+      "job0_op3",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job0_op3": {
+    "duration": 7,
+    "machine": [
+      7
+    ],
+    "job_id": 0,
+    "operation_id": 3,
+    "neighbors": [
+      "job0_op4",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job0_op4": {
+    "duration": 19,
+    "machine": [
+      9
+    ],
+    "job_id": 0,
+    "operation_id": 4,
+    "neighbors": [
+      "job0_op5",
+      "job0_op0",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job0_op5": {
+    "duration": 74,
+    "machine": [
+      19
+    ],
+    "job_id": 0,
+    "operation_id": 5,
+    "neighbors": [
+      "job0_op6",
+      "job0_op1",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job0_op6": {
+    "duration": 40,
+    "machine": [
+      11
+    ],
+    "job_id": 0,
+    "operation_id": 6,
+    "neighbors": [
+      "job0_op7",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job0_op7": {
+    "duration": 47,
+    "machine": [
+      3
+    ],
+    "job_id": 0,
+    "operation_id": 7,
+    "neighbors": [
+      "job0_op8",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job0_op8": {
+    "duration": 56,
+    "machine": [
+      11
+    ],
+    "job_id": 0,
+    "operation_id": 8,
+    "neighbors": [
+      "job0_op9",
+      "job0_op6",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job0_op9": {
+    "duration": 19,
+    "machine": [
+      7
+    ],
+    "job_id": 0,
+    "operation_id": 9,
+    "neighbors": [
+      "job0_op10",
+      "job0_op3",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job0_op10": {
+    "duration": 70,
+    "machine": [
+      5
+    ],
+    "job_id": 0,
+    "operation_id": 10,
+    "neighbors": [
+      "job0_op11",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job0_op11": {
+    "duration": 29,
+    "machine": [
+      3
+    ],
+    "job_id": 0,
+    "operation_id": 11,
+    "neighbors": [
+      "job0_op12",
+      "job0_op7",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job0_op12": {
+    "duration": 16,
+    "machine": [
+      10
+    ],
+    "job_id": 0,
+    "operation_id": 12,
+    "neighbors": [
+      "job0_op13",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job0_op13": {
+    "duration": 61,
+    "machine": [
+      16
+    ],
+    "job_id": 0,
+    "operation_id": 13,
+    "neighbors": [
+      "job0_op14",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job0_op14": {
+    "duration": 85,
+    "machine": [
+      9
+    ],
+    "job_id": 0,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op0",
+      "job0_op4",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job1_op0": {
+    "duration": 22,
+    "machine": [
+      10
+    ],
+    "job_id": 1,
+    "operation_id": 0,
+    "neighbors": [
+      "job1_op1",
+      "job0_op12",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job1_op1": {
+    "duration": 1,
+    "machine": [
+      6
+    ],
+    "job_id": 1,
+    "operation_id": 1,
+    "neighbors": [
+      "job1_op2",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job1_op2": {
+    "duration": 37,
+    "machine": [
+      15
+    ],
+    "job_id": 1,
+    "operation_id": 2,
+    "neighbors": [
+      "job1_op3",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job1_op3": {
+    "duration": 20,
+    "machine": [
+      1
+    ],
+    "job_id": 1,
+    "operation_id": 3,
+    "neighbors": [
+      "job1_op4",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job1_op4": {
+    "duration": 31,
+    "machine": [
+      2
+    ],
+    "job_id": 1,
+    "operation_id": 4,
+    "neighbors": [
+      "job1_op5",
+      "job2_op8",
+      "job8_op8",
+      "job10_op9",
+      "job13_op7",
+      "job15_op13",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job1_op5": {
+    "duration": 29,
+    "machine": [
+      12
+    ],
+    "job_id": 1,
+    "operation_id": 5,
+    "neighbors": [
+      "job1_op6",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job1_op6": {
+    "duration": 24,
+    "machine": [
+      15
+    ],
+    "job_id": 1,
+    "operation_id": 6,
+    "neighbors": [
+      "job1_op7",
+      "job1_op2",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job1_op7": {
+    "duration": 49,
+    "machine": [
+      17
+    ],
+    "job_id": 1,
+    "operation_id": 7,
+    "neighbors": [
+      "job1_op8",
+      "job0_op2",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job1_op8": {
+    "duration": 55,
+    "machine": [
+      18
+    ],
+    "job_id": 1,
+    "operation_id": 8,
+    "neighbors": [
+      "job1_op9",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job1_op9": {
+    "duration": 21,
+    "machine": [
+      1
+    ],
+    "job_id": 1,
+    "operation_id": 9,
+    "neighbors": [
+      "job1_op10",
+      "job1_op3",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job1_op10": {
+    "duration": 44,
+    "machine": [
+      13
+    ],
+    "job_id": 1,
+    "operation_id": 10,
+    "neighbors": [
+      "job1_op11",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job1_op11": {
+    "duration": 3,
+    "machine": [
+      15
+    ],
+    "job_id": 1,
+    "operation_id": 11,
+    "neighbors": [
+      "job1_op12",
+      "job1_op2",
+      "job1_op6",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job1_op12": {
+    "duration": 13,
+    "machine": [
+      4
+    ],
+    "job_id": 1,
+    "operation_id": 12,
+    "neighbors": [
+      "job1_op13",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job1_op13": {
+    "duration": 17,
+    "machine": [
+      11
+    ],
+    "job_id": 1,
+    "operation_id": 13,
+    "neighbors": [
+      "job1_op14",
+      "job0_op6",
+      "job0_op8",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job1_op14": {
+    "duration": 69,
+    "machine": [
+      11
+    ],
+    "job_id": 1,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job2_op0": {
+    "duration": 67,
+    "machine": [
+      9
+    ],
+    "job_id": 2,
+    "operation_id": 0,
+    "neighbors": [
+      "job2_op1",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job2_op1": {
+    "duration": 16,
+    "machine": [
+      15
+    ],
+    "job_id": 2,
+    "operation_id": 1,
+    "neighbors": [
+      "job2_op2",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job2_op2": {
+    "duration": 39,
+    "machine": [
+      7
+    ],
+    "job_id": 2,
+    "operation_id": 2,
+    "neighbors": [
+      "job2_op3",
+      "job0_op3",
+      "job0_op9",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job2_op3": {
+    "duration": 60,
+    "machine": [
+      19
+    ],
+    "job_id": 2,
+    "operation_id": 3,
+    "neighbors": [
+      "job2_op4",
+      "job0_op1",
+      "job0_op5",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job2_op4": {
+    "duration": 35,
+    "machine": [
+      3
+    ],
+    "job_id": 2,
+    "operation_id": 4,
+    "neighbors": [
+      "job2_op5",
+      "job0_op7",
+      "job0_op11",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job2_op5": {
+    "duration": 93,
+    "machine": [
+      15
+    ],
+    "job_id": 2,
+    "operation_id": 5,
+    "neighbors": [
+      "job2_op6",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job2_op6": {
+    "duration": 100,
+    "machine": [
+      6
+    ],
+    "job_id": 2,
+    "operation_id": 6,
+    "neighbors": [
+      "job2_op7",
+      "job1_op1",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job2_op7": {
+    "duration": 96,
+    "machine": [
+      4
+    ],
+    "job_id": 2,
+    "operation_id": 7,
+    "neighbors": [
+      "job2_op8",
+      "job1_op12",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job2_op8": {
+    "duration": 35,
+    "machine": [
+      2
+    ],
+    "job_id": 2,
+    "operation_id": 8,
+    "neighbors": [
+      "job2_op9",
+      "job1_op4",
+      "job8_op8",
+      "job10_op9",
+      "job13_op7",
+      "job15_op13",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job2_op9": {
+    "duration": 21,
+    "machine": [
+      16
+    ],
+    "job_id": 2,
+    "operation_id": 9,
+    "neighbors": [
+      "job2_op10",
+      "job0_op13",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job2_op10": {
+    "duration": 56,
+    "machine": [
+      18
+    ],
+    "job_id": 2,
+    "operation_id": 10,
+    "neighbors": [
+      "job2_op11",
+      "job1_op8",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job2_op11": {
+    "duration": 55,
+    "machine": [
+      9
+    ],
+    "job_id": 2,
+    "operation_id": 11,
+    "neighbors": [
+      "job2_op12",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job2_op12": {
+    "duration": 28,
+    "machine": [
+      6
+    ],
+    "job_id": 2,
+    "operation_id": 12,
+    "neighbors": [
+      "job2_op13",
+      "job1_op1",
+      "job2_op6",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job2_op13": {
+    "duration": 31,
+    "machine": [
+      4
+    ],
+    "job_id": 2,
+    "operation_id": 13,
+    "neighbors": [
+      "job2_op14",
+      "job1_op12",
+      "job2_op7",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job2_op14": {
+    "duration": 43,
+    "machine": [
+      9
+    ],
+    "job_id": 2,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job3_op0": {
+    "duration": 50,
+    "machine": [
+      16
+    ],
+    "job_id": 3,
+    "operation_id": 0,
+    "neighbors": [
+      "job3_op1",
+      "job0_op13",
+      "job2_op9",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job3_op1": {
+    "duration": 2,
+    "machine": [
+      7
+    ],
+    "job_id": 3,
+    "operation_id": 1,
+    "neighbors": [
+      "job3_op2",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job3_op2": {
+    "duration": 72,
+    "machine": [
+      16
+    ],
+    "job_id": 3,
+    "operation_id": 2,
+    "neighbors": [
+      "job3_op3",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job3_op3": {
+    "duration": 8,
+    "machine": [
+      18
+    ],
+    "job_id": 3,
+    "operation_id": 3,
+    "neighbors": [
+      "job3_op4",
+      "job1_op8",
+      "job2_op10",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job3_op4": {
+    "duration": 11,
+    "machine": [
+      5
+    ],
+    "job_id": 3,
+    "operation_id": 4,
+    "neighbors": [
+      "job3_op5",
+      "job0_op10",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job3_op5": {
+    "duration": 33,
+    "machine": [
+      15
+    ],
+    "job_id": 3,
+    "operation_id": 5,
+    "neighbors": [
+      "job3_op6",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job3_op6": {
+    "duration": 73,
+    "machine": [
+      8
+    ],
+    "job_id": 3,
+    "operation_id": 6,
+    "neighbors": [
+      "job3_op7",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job3_op7": {
+    "duration": 29,
+    "machine": [
+      15
+    ],
+    "job_id": 3,
+    "operation_id": 7,
+    "neighbors": [
+      "job3_op8",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job3_op8": {
+    "duration": 1,
+    "machine": [
+      12
+    ],
+    "job_id": 3,
+    "operation_id": 8,
+    "neighbors": [
+      "job3_op9",
+      "job1_op5",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job3_op9": {
+    "duration": 9,
+    "machine": [
+      6
+    ],
+    "job_id": 3,
+    "operation_id": 9,
+    "neighbors": [
+      "job3_op10",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job3_op10": {
+    "duration": 32,
+    "machine": [
+      12
+    ],
+    "job_id": 3,
+    "operation_id": 10,
+    "neighbors": [
+      "job3_op11",
+      "job1_op5",
+      "job3_op8",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job3_op11": {
+    "duration": 6,
+    "machine": [
+      13
+    ],
+    "job_id": 3,
+    "operation_id": 11,
+    "neighbors": [
+      "job3_op12",
+      "job1_op10",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job3_op12": {
+    "duration": 84,
+    "machine": [
+      8
+    ],
+    "job_id": 3,
+    "operation_id": 12,
+    "neighbors": [
+      "job3_op13",
+      "job3_op6",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job3_op13": {
+    "duration": 53,
+    "machine": [
+      11
+    ],
+    "job_id": 3,
+    "operation_id": 13,
+    "neighbors": [
+      "job3_op14",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job3_op14": {
+    "duration": 36,
+    "machine": [
+      15
+    ],
+    "job_id": 3,
+    "operation_id": 14,
+    "neighbors": [
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job4_op0": {
+    "duration": 40,
+    "machine": [
+      7
+    ],
+    "job_id": 4,
+    "operation_id": 0,
+    "neighbors": [
+      "job4_op1",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job4_op1": {
+    "duration": 48,
+    "machine": [
+      15
+    ],
+    "job_id": 4,
+    "operation_id": 1,
+    "neighbors": [
+      "job4_op2",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job4_op2": {
+    "duration": 62,
+    "machine": [
+      9
+    ],
+    "job_id": 4,
+    "operation_id": 2,
+    "neighbors": [
+      "job4_op3",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job4_op3": {
+    "duration": 73,
+    "machine": [
+      14
+    ],
+    "job_id": 4,
+    "operation_id": 3,
+    "neighbors": [
+      "job4_op4",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job4_op4": {
+    "duration": 99,
+    "machine": [
+      15
+    ],
+    "job_id": 4,
+    "operation_id": 4,
+    "neighbors": [
+      "job4_op5",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job4_op5": {
+    "duration": 86,
+    "machine": [
+      1
+    ],
+    "job_id": 4,
+    "operation_id": 5,
+    "neighbors": [
+      "job4_op6",
+      "job1_op3",
+      "job1_op9",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job4_op6": {
+    "duration": 77,
+    "machine": [
+      17
+    ],
+    "job_id": 4,
+    "operation_id": 6,
+    "neighbors": [
+      "job4_op7",
+      "job0_op2",
+      "job1_op7",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job4_op7": {
+    "duration": 41,
+    "machine": [
+      5
+    ],
+    "job_id": 4,
+    "operation_id": 7,
+    "neighbors": [
+      "job4_op8",
+      "job0_op10",
+      "job3_op4",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job4_op8": {
+    "duration": 33,
+    "machine": [
+      14
+    ],
+    "job_id": 4,
+    "operation_id": 8,
+    "neighbors": [
+      "job4_op9",
+      "job4_op3",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job4_op9": {
+    "duration": 14,
+    "machine": [
+      5
+    ],
+    "job_id": 4,
+    "operation_id": 9,
+    "neighbors": [
+      "job4_op10",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job4_op10": {
+    "duration": 78,
+    "machine": [
+      14
+    ],
+    "job_id": 4,
+    "operation_id": 10,
+    "neighbors": [
+      "job4_op11",
+      "job4_op3",
+      "job4_op8",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job4_op11": {
+    "duration": 15,
+    "machine": [
+      7
+    ],
+    "job_id": 4,
+    "operation_id": 11,
+    "neighbors": [
+      "job4_op12",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job4_op12": {
+    "duration": 90,
+    "machine": [
+      8
+    ],
+    "job_id": 4,
+    "operation_id": 12,
+    "neighbors": [
+      "job4_op13",
+      "job3_op6",
+      "job3_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job4_op13": {
+    "duration": 81,
+    "machine": [
+      19
+    ],
+    "job_id": 4,
+    "operation_id": 13,
+    "neighbors": [
+      "job4_op14",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job4_op14": {
+    "duration": 40,
+    "machine": [
+      3
+    ],
+    "job_id": 4,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job5_op0": {
+    "duration": 94,
+    "machine": [
+      6
+    ],
+    "job_id": 5,
+    "operation_id": 0,
+    "neighbors": [
+      "job5_op1",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job5_op1": {
+    "duration": 9,
+    "machine": [
+      9
+    ],
+    "job_id": 5,
+    "operation_id": 1,
+    "neighbors": [
+      "job5_op2",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job5_op2": {
+    "duration": 44,
+    "machine": [
+      13
+    ],
+    "job_id": 5,
+    "operation_id": 2,
+    "neighbors": [
+      "job5_op3",
+      "job1_op10",
+      "job3_op11",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job5_op3": {
+    "duration": 50,
+    "machine": [
+      3
+    ],
+    "job_id": 5,
+    "operation_id": 3,
+    "neighbors": [
+      "job5_op4",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job5_op4": {
+    "duration": 14,
+    "machine": [
+      5
+    ],
+    "job_id": 5,
+    "operation_id": 4,
+    "neighbors": [
+      "job5_op5",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job5_op5": {
+    "duration": 55,
+    "machine": [
+      4
+    ],
+    "job_id": 5,
+    "operation_id": 5,
+    "neighbors": [
+      "job5_op6",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job5_op6": {
+    "duration": 78,
+    "machine": [
+      5
+    ],
+    "job_id": 5,
+    "operation_id": 6,
+    "neighbors": [
+      "job5_op7",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job5_op7": {
+    "duration": 85,
+    "machine": [
+      10
+    ],
+    "job_id": 5,
+    "operation_id": 7,
+    "neighbors": [
+      "job5_op8",
+      "job0_op12",
+      "job1_op0",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job5_op8": {
+    "duration": 57,
+    "machine": [
+      19
+    ],
+    "job_id": 5,
+    "operation_id": 8,
+    "neighbors": [
+      "job5_op9",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job5_op9": {
+    "duration": 42,
+    "machine": [
+      9
+    ],
+    "job_id": 5,
+    "operation_id": 9,
+    "neighbors": [
+      "job5_op10",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job5_op10": {
+    "duration": 48,
+    "machine": [
+      13
+    ],
+    "job_id": 5,
+    "operation_id": 10,
+    "neighbors": [
+      "job5_op11",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job5_op11": {
+    "duration": 76,
+    "machine": [
+      9
+    ],
+    "job_id": 5,
+    "operation_id": 11,
+    "neighbors": [
+      "job5_op12",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job5_op12": {
+    "duration": 43,
+    "machine": [
+      10
+    ],
+    "job_id": 5,
+    "operation_id": 12,
+    "neighbors": [
+      "job5_op13",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job5_op13": {
+    "duration": 38,
+    "machine": [
+      14
+    ],
+    "job_id": 5,
+    "operation_id": 13,
+    "neighbors": [
+      "job5_op14",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job5_op14": {
+    "duration": 3,
+    "machine": [
+      7
+    ],
+    "job_id": 5,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job6_op0": {
+    "duration": 61,
+    "machine": [
+      16
+    ],
+    "job_id": 6,
+    "operation_id": 0,
+    "neighbors": [
+      "job6_op1",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job6_op1": {
+    "duration": 53,
+    "machine": [
+      7
+    ],
+    "job_id": 6,
+    "operation_id": 1,
+    "neighbors": [
+      "job6_op2",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job6_op2": {
+    "duration": 44,
+    "machine": [
+      11
+    ],
+    "job_id": 6,
+    "operation_id": 2,
+    "neighbors": [
+      "job6_op3",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job6_op3": {
+    "duration": 68,
+    "machine": [
+      19
+    ],
+    "job_id": 6,
+    "operation_id": 3,
+    "neighbors": [
+      "job6_op4",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job6_op4": {
+    "duration": 57,
+    "machine": [
+      11
+    ],
+    "job_id": 6,
+    "operation_id": 4,
+    "neighbors": [
+      "job6_op5",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job6_op5": {
+    "duration": 99,
+    "machine": [
+      9
+    ],
+    "job_id": 6,
+    "operation_id": 5,
+    "neighbors": [
+      "job6_op6",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job6_op6": {
+    "duration": 62,
+    "machine": [
+      10
+    ],
+    "job_id": 6,
+    "operation_id": 6,
+    "neighbors": [
+      "job6_op7",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job6_op7": {
+    "duration": 73,
+    "machine": [
+      5
+    ],
+    "job_id": 6,
+    "operation_id": 7,
+    "neighbors": [
+      "job6_op8",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job6_op8": {
+    "duration": 54,
+    "machine": [
+      9
+    ],
+    "job_id": 6,
+    "operation_id": 8,
+    "neighbors": [
+      "job6_op9",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job6_op9": {
+    "duration": 61,
+    "machine": [
+      8
+    ],
+    "job_id": 6,
+    "operation_id": 9,
+    "neighbors": [
+      "job6_op10",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job6_op10": {
+    "duration": 25,
+    "machine": [
+      14
+    ],
+    "job_id": 6,
+    "operation_id": 10,
+    "neighbors": [
+      "job6_op11",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job6_op11": {
+    "duration": 60,
+    "machine": [
+      1
+    ],
+    "job_id": 6,
+    "operation_id": 11,
+    "neighbors": [
+      "job6_op12",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job6_op12": {
+    "duration": 53,
+    "machine": [
+      11
+    ],
+    "job_id": 6,
+    "operation_id": 12,
+    "neighbors": [
+      "job6_op13",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job6_op13": {
+    "duration": 27,
+    "machine": [
+      18
+    ],
+    "job_id": 6,
+    "operation_id": 13,
+    "neighbors": [
+      "job6_op14",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job6_op14": {
+    "duration": 92,
+    "machine": [
+      8
+    ],
+    "job_id": 6,
+    "operation_id": 14,
+    "neighbors": [
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job7_op0": {
+    "duration": 66,
+    "machine": [
+      18
+    ],
+    "job_id": 7,
+    "operation_id": 0,
+    "neighbors": [
+      "job7_op1",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job7_op1": {
+    "duration": 18,
+    "machine": [
+      9
+    ],
+    "job_id": 7,
+    "operation_id": 1,
+    "neighbors": [
+      "job7_op2",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job7_op2": {
+    "duration": 68,
+    "machine": [
+      15
+    ],
+    "job_id": 7,
+    "operation_id": 2,
+    "neighbors": [
+      "job7_op3",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job7_op3": {
+    "duration": 84,
+    "machine": [
+      18
+    ],
+    "job_id": 7,
+    "operation_id": 3,
+    "neighbors": [
+      "job7_op4",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job7_op4": {
+    "duration": 82,
+    "machine": [
+      14
+    ],
+    "job_id": 7,
+    "operation_id": 4,
+    "neighbors": [
+      "job7_op5",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job7_op5": {
+    "duration": 93,
+    "machine": [
+      3
+    ],
+    "job_id": 7,
+    "operation_id": 5,
+    "neighbors": [
+      "job7_op6",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job7_op6": {
+    "duration": 32,
+    "machine": [
+      7
+    ],
+    "job_id": 7,
+    "operation_id": 6,
+    "neighbors": [
+      "job7_op7",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job7_op7": {
+    "duration": 7,
+    "machine": [
+      13
+    ],
+    "job_id": 7,
+    "operation_id": 7,
+    "neighbors": [
+      "job7_op8",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job7_op8": {
+    "duration": 68,
+    "machine": [
+      12
+    ],
+    "job_id": 7,
+    "operation_id": 8,
+    "neighbors": [
+      "job7_op9",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job7_op9": {
+    "duration": 68,
+    "machine": [
+      0
+    ],
+    "job_id": 7,
+    "operation_id": 9,
+    "neighbors": [
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job7_op10": {
+    "duration": 80,
+    "machine": [
+      0
+    ],
+    "job_id": 7,
+    "operation_id": 10,
+    "neighbors": [
+      "job7_op11",
+      "job7_op9",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job7_op11": {
+    "duration": 48,
+    "machine": [
+      0
+    ],
+    "job_id": 7,
+    "operation_id": 11,
+    "neighbors": [
+      "job7_op12",
+      "job7_op9",
+      "job7_op10",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job7_op12": {
+    "duration": 25,
+    "machine": [
+      0
+    ],
+    "job_id": 7,
+    "operation_id": 12,
+    "neighbors": [
+      "job7_op13",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job7_op13": {
+    "duration": 90,
+    "machine": [
+      14
+    ],
+    "job_id": 7,
+    "operation_id": 13,
+    "neighbors": [
+      "job7_op14",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job7_op14": {
+    "duration": 15,
+    "machine": [
+      5
+    ],
+    "job_id": 7,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job8_op0": {
+    "duration": 29,
+    "machine": [
+      0
+    ],
+    "job_id": 8,
+    "operation_id": 0,
+    "neighbors": [
+      "job8_op1",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job8_op1": {
+    "duration": 86,
+    "machine": [
+      5
+    ],
+    "job_id": 8,
+    "operation_id": 1,
+    "neighbors": [
+      "job8_op2",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job8_op2": {
+    "duration": 29,
+    "machine": [
+      16
+    ],
+    "job_id": 8,
+    "operation_id": 2,
+    "neighbors": [
+      "job8_op3",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job8_op3": {
+    "duration": 40,
+    "machine": [
+      1
+    ],
+    "job_id": 8,
+    "operation_id": 3,
+    "neighbors": [
+      "job8_op4",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job8_op4": {
+    "duration": 71,
+    "machine": [
+      17
+    ],
+    "job_id": 8,
+    "operation_id": 4,
+    "neighbors": [
+      "job8_op5",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job8_op5": {
+    "duration": 19,
+    "machine": [
+      10
+    ],
+    "job_id": 8,
+    "operation_id": 5,
+    "neighbors": [
+      "job8_op6",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job8_op6": {
+    "duration": 49,
+    "machine": [
+      9
+    ],
+    "job_id": 8,
+    "operation_id": 6,
+    "neighbors": [
+      "job8_op7",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job8_op7": {
+    "duration": 30,
+    "machine": [
+      8
+    ],
+    "job_id": 8,
+    "operation_id": 7,
+    "neighbors": [
+      "job8_op8",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job8_op8": {
+    "duration": 47,
+    "machine": [
+      2
+    ],
+    "job_id": 8,
+    "operation_id": 8,
+    "neighbors": [
+      "job8_op9",
+      "job1_op4",
+      "job2_op8",
+      "job10_op9",
+      "job13_op7",
+      "job15_op13",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job8_op9": {
+    "duration": 19,
+    "machine": [
+      0
+    ],
+    "job_id": 8,
+    "operation_id": 9,
+    "neighbors": [
+      "job8_op10",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job8_op10": {
+    "duration": 44,
+    "machine": [
+      5
+    ],
+    "job_id": 8,
+    "operation_id": 10,
+    "neighbors": [
+      "job8_op11",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job8_op11": {
+    "duration": 74,
+    "machine": [
+      16
+    ],
+    "job_id": 8,
+    "operation_id": 11,
+    "neighbors": [
+      "job8_op12",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job8_op12": {
+    "duration": 94,
+    "machine": [
+      4
+    ],
+    "job_id": 8,
+    "operation_id": 12,
+    "neighbors": [
+      "job8_op13",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job8_op13": {
+    "duration": 3,
+    "machine": [
+      12
+    ],
+    "job_id": 8,
+    "operation_id": 13,
+    "neighbors": [
+      "job8_op14",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job8_op14": {
+    "duration": 69,
+    "machine": [
+      9
+    ],
+    "job_id": 8,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job9_op0": {
+    "duration": 68,
+    "machine": [
+      6
+    ],
+    "job_id": 9,
+    "operation_id": 0,
+    "neighbors": [
+      "job9_op1",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job9_op1": {
+    "duration": 7,
+    "machine": [
+      13
+    ],
+    "job_id": 9,
+    "operation_id": 1,
+    "neighbors": [
+      "job9_op2",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job9_op2": {
+    "duration": 20,
+    "machine": [
+      6
+    ],
+    "job_id": 9,
+    "operation_id": 2,
+    "neighbors": [
+      "job9_op3",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job9_op3": {
+    "duration": 11,
+    "machine": [
+      8
+    ],
+    "job_id": 9,
+    "operation_id": 3,
+    "neighbors": [
+      "job9_op4",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job9_op4": {
+    "duration": 43,
+    "machine": [
+      5
+    ],
+    "job_id": 9,
+    "operation_id": 4,
+    "neighbors": [
+      "job9_op5",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job9_op5": {
+    "duration": 96,
+    "machine": [
+      3
+    ],
+    "job_id": 9,
+    "operation_id": 5,
+    "neighbors": [
+      "job9_op6",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job9_op6": {
+    "duration": 50,
+    "machine": [
+      13
+    ],
+    "job_id": 9,
+    "operation_id": 6,
+    "neighbors": [
+      "job9_op7",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job9_op7": {
+    "duration": 45,
+    "machine": [
+      13
+    ],
+    "job_id": 9,
+    "operation_id": 7,
+    "neighbors": [
+      "job9_op8",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job9_op8": {
+    "duration": 90,
+    "machine": [
+      1
+    ],
+    "job_id": 9,
+    "operation_id": 8,
+    "neighbors": [
+      "job9_op9",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job9_op9": {
+    "duration": 41,
+    "machine": [
+      9
+    ],
+    "job_id": 9,
+    "operation_id": 9,
+    "neighbors": [
+      "job9_op10",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job9_op10": {
+    "duration": 30,
+    "machine": [
+      0
+    ],
+    "job_id": 9,
+    "operation_id": 10,
+    "neighbors": [
+      "job9_op11",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job10_op1",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job9_op11": {
+    "duration": 85,
+    "machine": [
+      11
+    ],
+    "job_id": 9,
+    "operation_id": 11,
+    "neighbors": [
+      "job9_op12",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job9_op12": {
+    "duration": 20,
+    "machine": [
+      4
+    ],
+    "job_id": 9,
+    "operation_id": 12,
+    "neighbors": [
+      "job9_op13",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job9_op13": {
+    "duration": 67,
+    "machine": [
+      3
+    ],
+    "job_id": 9,
+    "operation_id": 13,
+    "neighbors": [
+      "job9_op14",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job9_op14": {
+    "duration": 29,
+    "machine": [
+      16
+    ],
+    "job_id": 9,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job10_op0": {
+    "duration": 24,
+    "machine": [
+      9
+    ],
+    "job_id": 10,
+    "operation_id": 0,
+    "neighbors": [
+      "job10_op1",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job10_op1": {
+    "duration": 62,
+    "machine": [
+      0
+    ],
+    "job_id": 10,
+    "operation_id": 1,
+    "neighbors": [
+      "job10_op2",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job12_op9",
+      "job13_op8"
+    ]
+  },
+  "job10_op2": {
+    "duration": 83,
+    "machine": [
+      13
+    ],
+    "job_id": 10,
+    "operation_id": 2,
+    "neighbors": [
+      "job10_op3",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job10_op3": {
+    "duration": 29,
+    "machine": [
+      10
+    ],
+    "job_id": 10,
+    "operation_id": 3,
+    "neighbors": [
+      "job10_op4",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job10_op4": {
+    "duration": 15,
+    "machine": [
+      13
+    ],
+    "job_id": 10,
+    "operation_id": 4,
+    "neighbors": [
+      "job10_op5",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job10_op5": {
+    "duration": 23,
+    "machine": [
+      12
+    ],
+    "job_id": 10,
+    "operation_id": 5,
+    "neighbors": [
+      "job10_op6",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job10_op6": {
+    "duration": 4,
+    "machine": [
+      7
+    ],
+    "job_id": 10,
+    "operation_id": 6,
+    "neighbors": [
+      "job10_op7",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job10_op7": {
+    "duration": 10,
+    "machine": [
+      3
+    ],
+    "job_id": 10,
+    "operation_id": 7,
+    "neighbors": [
+      "job10_op8",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job10_op8": {
+    "duration": 88,
+    "machine": [
+      1
+    ],
+    "job_id": 10,
+    "operation_id": 8,
+    "neighbors": [
+      "job10_op9",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job10_op9": {
+    "duration": 67,
+    "machine": [
+      2
+    ],
+    "job_id": 10,
+    "operation_id": 9,
+    "neighbors": [
+      "job10_op10",
+      "job1_op4",
+      "job2_op8",
+      "job8_op8",
+      "job13_op7",
+      "job15_op13",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job10_op10": {
+    "duration": 80,
+    "machine": [
+      4
+    ],
+    "job_id": 10,
+    "operation_id": 10,
+    "neighbors": [
+      "job10_op11",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job10_op11": {
+    "duration": 12,
+    "machine": [
+      10
+    ],
+    "job_id": 10,
+    "operation_id": 11,
+    "neighbors": [
+      "job10_op12",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job10_op12": {
+    "duration": 72,
+    "machine": [
+      10
+    ],
+    "job_id": 10,
+    "operation_id": 12,
+    "neighbors": [
+      "job10_op13",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job10_op13": {
+    "duration": 41,
+    "machine": [
+      19
+    ],
+    "job_id": 10,
+    "operation_id": 13,
+    "neighbors": [
+      "job10_op14",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job10_op14": {
+    "duration": 40,
+    "machine": [
+      1
+    ],
+    "job_id": 10,
+    "operation_id": 14,
+    "neighbors": [
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job11_op0": {
+    "duration": 51,
+    "machine": [
+      18
+    ],
+    "job_id": 11,
+    "operation_id": 0,
+    "neighbors": [
+      "job11_op1",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job11_op1": {
+    "duration": 56,
+    "machine": [
+      17
+    ],
+    "job_id": 11,
+    "operation_id": 1,
+    "neighbors": [
+      "job11_op2",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job11_op2": {
+    "duration": 36,
+    "machine": [
+      10
+    ],
+    "job_id": 11,
+    "operation_id": 2,
+    "neighbors": [
+      "job11_op3",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op12",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job11_op3": {
+    "duration": 63,
+    "machine": [
+      14
+    ],
+    "job_id": 11,
+    "operation_id": 3,
+    "neighbors": [
+      "job11_op4",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job11_op4": {
+    "duration": 24,
+    "machine": [
+      15
+    ],
+    "job_id": 11,
+    "operation_id": 4,
+    "neighbors": [
+      "job11_op5",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job11_op5": {
+    "duration": 65,
+    "machine": [
+      17
+    ],
+    "job_id": 11,
+    "operation_id": 5,
+    "neighbors": [
+      "job11_op6",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job11_op6": {
+    "duration": 76,
+    "machine": [
+      13
+    ],
+    "job_id": 11,
+    "operation_id": 6,
+    "neighbors": [
+      "job11_op7",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job11_op7": {
+    "duration": 75,
+    "machine": [
+      7
+    ],
+    "job_id": 11,
+    "operation_id": 7,
+    "neighbors": [
+      "job11_op8",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job11_op8": {
+    "duration": 22,
+    "machine": [
+      5
+    ],
+    "job_id": 11,
+    "operation_id": 8,
+    "neighbors": [
+      "job11_op9",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job11_op9": {
+    "duration": 79,
+    "machine": [
+      12
+    ],
+    "job_id": 11,
+    "operation_id": 9,
+    "neighbors": [
+      "job11_op10",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job11_op10": {
+    "duration": 36,
+    "machine": [
+      5
+    ],
+    "job_id": 11,
+    "operation_id": 10,
+    "neighbors": [
+      "job11_op11",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job11_op11": {
+    "duration": 78,
+    "machine": [
+      5
+    ],
+    "job_id": 11,
+    "operation_id": 11,
+    "neighbors": [
+      "job11_op12",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job11_op12": {
+    "duration": 35,
+    "machine": [
+      10
+    ],
+    "job_id": 11,
+    "operation_id": 12,
+    "neighbors": [
+      "job11_op13",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job13_op3",
+      "job17_op7"
+    ]
+  },
+  "job11_op13": {
+    "duration": 14,
+    "machine": [
+      9
+    ],
+    "job_id": 11,
+    "operation_id": 13,
+    "neighbors": [
+      "job11_op14",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job11_op14": {
+    "duration": 22,
+    "machine": [
+      17
+    ],
+    "job_id": 11,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job12_op0": {
+    "duration": 3,
+    "machine": [
+      18
+    ],
+    "job_id": 12,
+    "operation_id": 0,
+    "neighbors": [
+      "job12_op1",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job12_op1": {
+    "duration": 88,
+    "machine": [
+      12
+    ],
+    "job_id": 12,
+    "operation_id": 1,
+    "neighbors": [
+      "job12_op2",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job12_op2": {
+    "duration": 91,
+    "machine": [
+      15
+    ],
+    "job_id": 12,
+    "operation_id": 2,
+    "neighbors": [
+      "job12_op3",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job12_op3": {
+    "duration": 29,
+    "machine": [
+      14
+    ],
+    "job_id": 12,
+    "operation_id": 3,
+    "neighbors": [
+      "job12_op4",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job12_op4": {
+    "duration": 56,
+    "machine": [
+      16
+    ],
+    "job_id": 12,
+    "operation_id": 4,
+    "neighbors": [
+      "job12_op5",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job12_op5": {
+    "duration": 94,
+    "machine": [
+      18
+    ],
+    "job_id": 12,
+    "operation_id": 5,
+    "neighbors": [
+      "job12_op6",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job12_op6": {
+    "duration": 73,
+    "machine": [
+      7
+    ],
+    "job_id": 12,
+    "operation_id": 6,
+    "neighbors": [
+      "job12_op7",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job12_op7": {
+    "duration": 56,
+    "machine": [
+      4
+    ],
+    "job_id": 12,
+    "operation_id": 7,
+    "neighbors": [
+      "job12_op8",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job12_op8": {
+    "duration": 87,
+    "machine": [
+      11
+    ],
+    "job_id": 12,
+    "operation_id": 8,
+    "neighbors": [
+      "job12_op9",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job14_op10",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job12_op9": {
+    "duration": 37,
+    "machine": [
+      0
+    ],
+    "job_id": 12,
+    "operation_id": 9,
+    "neighbors": [
+      "job12_op10",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job13_op8"
+    ]
+  },
+  "job12_op10": {
+    "duration": 20,
+    "machine": [
+      17
+    ],
+    "job_id": 12,
+    "operation_id": 10,
+    "neighbors": [
+      "job12_op11",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job12_op11": {
+    "duration": 7,
+    "machine": [
+      3
+    ],
+    "job_id": 12,
+    "operation_id": 11,
+    "neighbors": [
+      "job12_op12",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job15_op10",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job12_op12": {
+    "duration": 45,
+    "machine": [
+      13
+    ],
+    "job_id": 12,
+    "operation_id": 12,
+    "neighbors": [
+      "job12_op13",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job12_op13": {
+    "duration": 92,
+    "machine": [
+      16
+    ],
+    "job_id": 12,
+    "operation_id": 13,
+    "neighbors": [
+      "job12_op14",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job12_op14": {
+    "duration": 37,
+    "machine": [
+      12
+    ],
+    "job_id": 12,
+    "operation_id": 14,
+    "neighbors": [
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job13_op0": {
+    "duration": 71,
+    "machine": [
+      7
+    ],
+    "job_id": 13,
+    "operation_id": 0,
+    "neighbors": [
+      "job13_op1",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job13_op1": {
+    "duration": 55,
+    "machine": [
+      13
+    ],
+    "job_id": 13,
+    "operation_id": 1,
+    "neighbors": [
+      "job13_op2",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job15_op14",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job13_op2": {
+    "duration": 71,
+    "machine": [
+      4
+    ],
+    "job_id": 13,
+    "operation_id": 2,
+    "neighbors": [
+      "job13_op3",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job13_op3": {
+    "duration": 5,
+    "machine": [
+      10
+    ],
+    "job_id": 13,
+    "operation_id": 3,
+    "neighbors": [
+      "job13_op4",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job17_op7"
+    ]
+  },
+  "job13_op4": {
+    "duration": 64,
+    "machine": [
+      14
+    ],
+    "job_id": 13,
+    "operation_id": 4,
+    "neighbors": [
+      "job13_op5",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job13_op5": {
+    "duration": 10,
+    "machine": [
+      5
+    ],
+    "job_id": 13,
+    "operation_id": 5,
+    "neighbors": [
+      "job13_op6",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job13_op6": {
+    "duration": 73,
+    "machine": [
+      18
+    ],
+    "job_id": 13,
+    "operation_id": 6,
+    "neighbors": [
+      "job13_op7",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job13_op7": {
+    "duration": 8,
+    "machine": [
+      2
+    ],
+    "job_id": 13,
+    "operation_id": 7,
+    "neighbors": [
+      "job13_op8",
+      "job1_op4",
+      "job2_op8",
+      "job8_op8",
+      "job10_op9",
+      "job15_op13",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job13_op8": {
+    "duration": 39,
+    "machine": [
+      0
+    ],
+    "job_id": 13,
+    "operation_id": 8,
+    "neighbors": [
+      "job13_op9",
+      "job7_op9",
+      "job7_op10",
+      "job7_op11",
+      "job7_op12",
+      "job8_op0",
+      "job8_op9",
+      "job9_op10",
+      "job10_op1",
+      "job12_op9"
+    ]
+  },
+  "job13_op9": {
+    "duration": 83,
+    "machine": [
+      5
+    ],
+    "job_id": 13,
+    "operation_id": 9,
+    "neighbors": [
+      "job13_op10",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job13_op10": {
+    "duration": 91,
+    "machine": [
+      9
+    ],
+    "job_id": 13,
+    "operation_id": 10,
+    "neighbors": [
+      "job13_op11",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job13_op11": {
+    "duration": 61,
+    "machine": [
+      15
+    ],
+    "job_id": 13,
+    "operation_id": 11,
+    "neighbors": [
+      "job13_op12",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job13_op12": {
+    "duration": 19,
+    "machine": [
+      18
+    ],
+    "job_id": 13,
+    "operation_id": 12,
+    "neighbors": [
+      "job13_op13",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job13_op13": {
+    "duration": 18,
+    "machine": [
+      18
+    ],
+    "job_id": 13,
+    "operation_id": 13,
+    "neighbors": [
+      "job13_op14",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job16_op2",
+      "job16_op3"
+    ]
+  },
+  "job13_op14": {
+    "duration": 1,
+    "machine": [
+      8
+    ],
+    "job_id": 13,
+    "operation_id": 14,
+    "neighbors": [
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job14_op11",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job14_op0": {
+    "duration": 77,
+    "machine": [
+      15
+    ],
+    "job_id": 14,
+    "operation_id": 0,
+    "neighbors": [
+      "job14_op1",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job14_op1": {
+    "duration": 97,
+    "machine": [
+      5
+    ],
+    "job_id": 14,
+    "operation_id": 1,
+    "neighbors": [
+      "job14_op2",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job14_op2": {
+    "duration": 2,
+    "machine": [
+      17
+    ],
+    "job_id": 14,
+    "operation_id": 2,
+    "neighbors": [
+      "job14_op3",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job14_op3": {
+    "duration": 25,
+    "machine": [
+      4
+    ],
+    "job_id": 14,
+    "operation_id": 3,
+    "neighbors": [
+      "job14_op4",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job14_op4": {
+    "duration": 95,
+    "machine": [
+      14
+    ],
+    "job_id": 14,
+    "operation_id": 4,
+    "neighbors": [
+      "job14_op5",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job14_op5": {
+    "duration": 20,
+    "machine": [
+      19
+    ],
+    "job_id": 14,
+    "operation_id": 5,
+    "neighbors": [
+      "job14_op6",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job15_op8",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job14_op6": {
+    "duration": 30,
+    "machine": [
+      5
+    ],
+    "job_id": 14,
+    "operation_id": 6,
+    "neighbors": [
+      "job14_op7",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job15_op2",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job14_op7": {
+    "duration": 81,
+    "machine": [
+      16
+    ],
+    "job_id": 14,
+    "operation_id": 7,
+    "neighbors": [
+      "job14_op8",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job14_op8": {
+    "duration": 81,
+    "machine": [
+      9
+    ],
+    "job_id": 14,
+    "operation_id": 8,
+    "neighbors": [
+      "job14_op9",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job14_op9": {
+    "duration": 84,
+    "machine": [
+      12
+    ],
+    "job_id": 14,
+    "operation_id": 9,
+    "neighbors": [
+      "job14_op10",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job14_op10": {
+    "duration": 2,
+    "machine": [
+      11
+    ],
+    "job_id": 14,
+    "operation_id": 10,
+    "neighbors": [
+      "job14_op11",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op14",
+      "job18_op8"
+    ]
+  },
+  "job14_op11": {
+    "duration": 31,
+    "machine": [
+      8
+    ],
+    "job_id": 14,
+    "operation_id": 11,
+    "neighbors": [
+      "job14_op12",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job16_op7",
+      "job18_op0"
+    ]
+  },
+  "job14_op12": {
+    "duration": 38,
+    "machine": [
+      6
+    ],
+    "job_id": 14,
+    "operation_id": 12,
+    "neighbors": [
+      "job14_op13",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job14_op13": {
+    "duration": 99,
+    "machine": [
+      14
+    ],
+    "job_id": 14,
+    "operation_id": 13,
+    "neighbors": [
+      "job14_op14",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job16_op14",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job14_op14": {
+    "duration": 3,
+    "machine": [
+      11
+    ],
+    "job_id": 14,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job18_op8"
+    ]
+  },
+  "job15_op0": {
+    "duration": 45,
+    "machine": [
+      1
+    ],
+    "job_id": 15,
+    "operation_id": 0,
+    "neighbors": [
+      "job15_op1",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op6",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job15_op1": {
+    "duration": 30,
+    "machine": [
+      16
+    ],
+    "job_id": 15,
+    "operation_id": 1,
+    "neighbors": [
+      "job15_op2",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job16_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job15_op2": {
+    "duration": 46,
+    "machine": [
+      5
+    ],
+    "job_id": 15,
+    "operation_id": 2,
+    "neighbors": [
+      "job15_op3",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job17_op2",
+      "job19_op7"
+    ]
+  },
+  "job15_op3": {
+    "duration": 57,
+    "machine": [
+      6
+    ],
+    "job_id": 15,
+    "operation_id": 3,
+    "neighbors": [
+      "job15_op4",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op5",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job15_op4": {
+    "duration": 85,
+    "machine": [
+      7
+    ],
+    "job_id": 15,
+    "operation_id": 4,
+    "neighbors": [
+      "job15_op5",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job15_op5": {
+    "duration": 1,
+    "machine": [
+      6
+    ],
+    "job_id": 15,
+    "operation_id": 5,
+    "neighbors": [
+      "job15_op6",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job19_op4",
+      "job19_op14"
+    ]
+  },
+  "job15_op6": {
+    "duration": 72,
+    "machine": [
+      1
+    ],
+    "job_id": 15,
+    "operation_id": 6,
+    "neighbors": [
+      "job15_op7",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op9",
+      "job18_op4"
+    ]
+  },
+  "job15_op7": {
+    "duration": 30,
+    "machine": [
+      15
+    ],
+    "job_id": 15,
+    "operation_id": 7,
+    "neighbors": [
+      "job15_op8",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job15_op8": {
+    "duration": 43,
+    "machine": [
+      19
+    ],
+    "job_id": 15,
+    "operation_id": 8,
+    "neighbors": [
+      "job15_op9",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job18_op14",
+      "job19_op5"
+    ]
+  },
+  "job15_op9": {
+    "duration": 11,
+    "machine": [
+      1
+    ],
+    "job_id": 15,
+    "operation_id": 9,
+    "neighbors": [
+      "job15_op10",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job18_op4"
+    ]
+  },
+  "job15_op10": {
+    "duration": 86,
+    "machine": [
+      3
+    ],
+    "job_id": 15,
+    "operation_id": 10,
+    "neighbors": [
+      "job15_op11",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job17_op12",
+      "job18_op13"
+    ]
+  },
+  "job15_op11": {
+    "duration": 35,
+    "machine": [
+      9
+    ],
+    "job_id": 15,
+    "operation_id": 11,
+    "neighbors": [
+      "job15_op12",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job15_op12": {
+    "duration": 91,
+    "machine": [
+      7
+    ],
+    "job_id": 15,
+    "operation_id": 12,
+    "neighbors": [
+      "job15_op13",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job16_op4",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job15_op13": {
+    "duration": 46,
+    "machine": [
+      2
+    ],
+    "job_id": 15,
+    "operation_id": 13,
+    "neighbors": [
+      "job15_op14",
+      "job1_op4",
+      "job2_op8",
+      "job8_op8",
+      "job10_op9",
+      "job13_op7",
+      "job18_op7",
+      "job18_op11"
+    ]
+  },
+  "job15_op14": {
+    "duration": 63,
+    "machine": [
+      13
+    ],
+    "job_id": 15,
+    "operation_id": 14,
+    "neighbors": [
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job19_op2",
+      "job19_op9"
+    ]
+  },
+  "job16_op0": {
+    "duration": 78,
+    "machine": [
+      12
+    ],
+    "job_id": 16,
+    "operation_id": 0,
+    "neighbors": [
+      "job16_op1",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job16_op1": {
+    "duration": 92,
+    "machine": [
+      16
+    ],
+    "job_id": 16,
+    "operation_id": 1,
+    "neighbors": [
+      "job16_op2",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job17_op4",
+      "job18_op3"
+    ]
+  },
+  "job16_op2": {
+    "duration": 22,
+    "machine": [
+      18
+    ],
+    "job_id": 16,
+    "operation_id": 2,
+    "neighbors": [
+      "job16_op3",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13"
+    ]
+  },
+  "job16_op3": {
+    "duration": 35,
+    "machine": [
+      18
+    ],
+    "job_id": 16,
+    "operation_id": 3,
+    "neighbors": [
+      "job16_op4",
+      "job1_op8",
+      "job2_op10",
+      "job3_op3",
+      "job6_op13",
+      "job7_op0",
+      "job7_op3",
+      "job11_op0",
+      "job12_op0",
+      "job12_op5",
+      "job13_op6",
+      "job13_op12",
+      "job13_op13",
+      "job16_op2"
+    ]
+  },
+  "job16_op4": {
+    "duration": 12,
+    "machine": [
+      7
+    ],
+    "job_id": 16,
+    "operation_id": 4,
+    "neighbors": [
+      "job16_op5",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job19_op1",
+      "job19_op8"
+    ]
+  },
+  "job16_op5": {
+    "duration": 89,
+    "machine": [
+      4
+    ],
+    "job_id": 16,
+    "operation_id": 5,
+    "neighbors": [
+      "job16_op6",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job16_op6": {
+    "duration": 15,
+    "machine": [
+      9
+    ],
+    "job_id": 16,
+    "operation_id": 6,
+    "neighbors": [
+      "job16_op7",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job16_op7": {
+    "duration": 67,
+    "machine": [
+      8
+    ],
+    "job_id": 16,
+    "operation_id": 7,
+    "neighbors": [
+      "job16_op8",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job18_op0"
+    ]
+  },
+  "job16_op8": {
+    "duration": 90,
+    "machine": [
+      4
+    ],
+    "job_id": 16,
+    "operation_id": 8,
+    "neighbors": [
+      "job16_op9",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job17_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job16_op9": {
+    "duration": 73,
+    "machine": [
+      9
+    ],
+    "job_id": 16,
+    "operation_id": 9,
+    "neighbors": [
+      "job16_op10",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job16_op10": {
+    "duration": 37,
+    "machine": [
+      17
+    ],
+    "job_id": 16,
+    "operation_id": 10,
+    "neighbors": [
+      "job16_op11",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job16_op11": {
+    "duration": 40,
+    "machine": [
+      15
+    ],
+    "job_id": 16,
+    "operation_id": 11,
+    "neighbors": [
+      "job16_op12",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job16_op12": {
+    "duration": 2,
+    "machine": [
+      17
+    ],
+    "job_id": 16,
+    "operation_id": 12,
+    "neighbors": [
+      "job16_op13",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job16_op13": {
+    "duration": 60,
+    "machine": [
+      15
+    ],
+    "job_id": 16,
+    "operation_id": 13,
+    "neighbors": [
+      "job16_op14",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job17_op3",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job16_op14": {
+    "duration": 32,
+    "machine": [
+      14
+    ],
+    "job_id": 16,
+    "operation_id": 14,
+    "neighbors": [
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job18_op6",
+      "job19_op3"
+    ]
+  },
+  "job17_op0": {
+    "duration": 89,
+    "machine": [
+      17
+    ],
+    "job_id": 17,
+    "operation_id": 0,
+    "neighbors": [
+      "job17_op1",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job17_op1": {
+    "duration": 29,
+    "machine": [
+      12
+    ],
+    "job_id": 17,
+    "operation_id": 1,
+    "neighbors": [
+      "job17_op2",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job17_op2": {
+    "duration": 26,
+    "machine": [
+      5
+    ],
+    "job_id": 17,
+    "operation_id": 2,
+    "neighbors": [
+      "job17_op3",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job19_op7"
+    ]
+  },
+  "job17_op3": {
+    "duration": 51,
+    "machine": [
+      15
+    ],
+    "job_id": 17,
+    "operation_id": 3,
+    "neighbors": [
+      "job17_op4",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job18_op5",
+      "job19_op12"
+    ]
+  },
+  "job17_op4": {
+    "duration": 64,
+    "machine": [
+      16
+    ],
+    "job_id": 17,
+    "operation_id": 4,
+    "neighbors": [
+      "job17_op5",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job18_op3"
+    ]
+  },
+  "job17_op5": {
+    "duration": 36,
+    "machine": [
+      12
+    ],
+    "job_id": 17,
+    "operation_id": 5,
+    "neighbors": [
+      "job17_op6",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job17_op6": {
+    "duration": 73,
+    "machine": [
+      12
+    ],
+    "job_id": 17,
+    "operation_id": 6,
+    "neighbors": [
+      "job17_op7",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job17_op7": {
+    "duration": 88,
+    "machine": [
+      10
+    ],
+    "job_id": 17,
+    "operation_id": 7,
+    "neighbors": [
+      "job17_op8",
+      "job0_op12",
+      "job1_op0",
+      "job5_op7",
+      "job5_op12",
+      "job6_op6",
+      "job8_op5",
+      "job10_op3",
+      "job10_op11",
+      "job10_op12",
+      "job11_op2",
+      "job11_op12",
+      "job13_op3"
+    ]
+  },
+  "job17_op8": {
+    "duration": 70,
+    "machine": [
+      4
+    ],
+    "job_id": 17,
+    "operation_id": 8,
+    "neighbors": [
+      "job17_op9",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job18_op9",
+      "job19_op0"
+    ]
+  },
+  "job17_op9": {
+    "duration": 18,
+    "machine": [
+      12
+    ],
+    "job_id": 17,
+    "operation_id": 9,
+    "neighbors": [
+      "job17_op10",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job17_op10": {
+    "duration": 73,
+    "machine": [
+      12
+    ],
+    "job_id": 17,
+    "operation_id": 10,
+    "neighbors": [
+      "job17_op11",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job18_op1",
+      "job18_op10"
+    ]
+  },
+  "job17_op11": {
+    "duration": 38,
+    "machine": [
+      17
+    ],
+    "job_id": 17,
+    "operation_id": 11,
+    "neighbors": [
+      "job17_op12",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op13",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job17_op12": {
+    "duration": 37,
+    "machine": [
+      3
+    ],
+    "job_id": 17,
+    "operation_id": 12,
+    "neighbors": [
+      "job17_op13",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job18_op13"
+    ]
+  },
+  "job17_op13": {
+    "duration": 99,
+    "machine": [
+      17
+    ],
+    "job_id": 17,
+    "operation_id": 13,
+    "neighbors": [
+      "job17_op14",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job18_op12",
+      "job19_op11"
+    ]
+  },
+  "job17_op14": {
+    "duration": 50,
+    "machine": [
+      9
+    ],
+    "job_id": 17,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job18_op0": {
+    "duration": 12,
+    "machine": [
+      8
+    ],
+    "job_id": 18,
+    "operation_id": 0,
+    "neighbors": [
+      "job18_op1",
+      "job3_op6",
+      "job3_op12",
+      "job4_op12",
+      "job6_op9",
+      "job6_op14",
+      "job8_op7",
+      "job9_op3",
+      "job13_op14",
+      "job14_op11",
+      "job16_op7"
+    ]
+  },
+  "job18_op1": {
+    "duration": 32,
+    "machine": [
+      12
+    ],
+    "job_id": 18,
+    "operation_id": 1,
+    "neighbors": [
+      "job18_op2",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op10"
+    ]
+  },
+  "job18_op2": {
+    "duration": 91,
+    "machine": [
+      9
+    ],
+    "job_id": 18,
+    "operation_id": 2,
+    "neighbors": [
+      "job18_op3",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job19_op6",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job18_op3": {
+    "duration": 7,
+    "machine": [
+      16
+    ],
+    "job_id": 18,
+    "operation_id": 3,
+    "neighbors": [
+      "job18_op4",
+      "job0_op13",
+      "job2_op9",
+      "job3_op0",
+      "job3_op2",
+      "job6_op0",
+      "job8_op2",
+      "job8_op11",
+      "job9_op14",
+      "job12_op4",
+      "job12_op13",
+      "job14_op7",
+      "job15_op1",
+      "job16_op1",
+      "job17_op4"
+    ]
+  },
+  "job18_op4": {
+    "duration": 24,
+    "machine": [
+      1
+    ],
+    "job_id": 18,
+    "operation_id": 4,
+    "neighbors": [
+      "job18_op5",
+      "job1_op3",
+      "job1_op9",
+      "job4_op5",
+      "job6_op11",
+      "job8_op3",
+      "job9_op8",
+      "job10_op8",
+      "job10_op14",
+      "job15_op0",
+      "job15_op6",
+      "job15_op9"
+    ]
+  },
+  "job18_op5": {
+    "duration": 57,
+    "machine": [
+      15
+    ],
+    "job_id": 18,
+    "operation_id": 5,
+    "neighbors": [
+      "job18_op6",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job19_op12"
+    ]
+  },
+  "job18_op6": {
+    "duration": 51,
+    "machine": [
+      14
+    ],
+    "job_id": 18,
+    "operation_id": 6,
+    "neighbors": [
+      "job18_op7",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job19_op3"
+    ]
+  },
+  "job18_op7": {
+    "duration": 40,
+    "machine": [
+      2
+    ],
+    "job_id": 18,
+    "operation_id": 7,
+    "neighbors": [
+      "job18_op8",
+      "job1_op4",
+      "job2_op8",
+      "job8_op8",
+      "job10_op9",
+      "job13_op7",
+      "job15_op13",
+      "job18_op11"
+    ]
+  },
+  "job18_op8": {
+    "duration": 83,
+    "machine": [
+      11
+    ],
+    "job_id": 18,
+    "operation_id": 8,
+    "neighbors": [
+      "job18_op9",
+      "job0_op6",
+      "job0_op8",
+      "job1_op13",
+      "job1_op14",
+      "job3_op13",
+      "job6_op2",
+      "job6_op4",
+      "job6_op12",
+      "job9_op11",
+      "job12_op8",
+      "job14_op10",
+      "job14_op14"
+    ]
+  },
+  "job18_op9": {
+    "duration": 6,
+    "machine": [
+      4
+    ],
+    "job_id": 18,
+    "operation_id": 9,
+    "neighbors": [
+      "job18_op10",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job19_op0"
+    ]
+  },
+  "job18_op10": {
+    "duration": 50,
+    "machine": [
+      12
+    ],
+    "job_id": 18,
+    "operation_id": 10,
+    "neighbors": [
+      "job18_op11",
+      "job1_op5",
+      "job3_op8",
+      "job3_op10",
+      "job7_op8",
+      "job8_op13",
+      "job10_op5",
+      "job11_op9",
+      "job12_op1",
+      "job12_op14",
+      "job14_op9",
+      "job16_op0",
+      "job17_op1",
+      "job17_op5",
+      "job17_op6",
+      "job17_op9",
+      "job17_op10",
+      "job18_op1"
+    ]
+  },
+  "job18_op11": {
+    "duration": 10,
+    "machine": [
+      2
+    ],
+    "job_id": 18,
+    "operation_id": 11,
+    "neighbors": [
+      "job18_op12",
+      "job1_op4",
+      "job2_op8",
+      "job8_op8",
+      "job10_op9",
+      "job13_op7",
+      "job15_op13",
+      "job18_op7"
+    ]
+  },
+  "job18_op12": {
+    "duration": 27,
+    "machine": [
+      17
+    ],
+    "job_id": 18,
+    "operation_id": 12,
+    "neighbors": [
+      "job18_op13",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job19_op11"
+    ]
+  },
+  "job18_op13": {
+    "duration": 78,
+    "machine": [
+      3
+    ],
+    "job_id": 18,
+    "operation_id": 13,
+    "neighbors": [
+      "job18_op14",
+      "job0_op7",
+      "job0_op11",
+      "job2_op4",
+      "job4_op14",
+      "job5_op3",
+      "job7_op5",
+      "job9_op5",
+      "job9_op13",
+      "job10_op7",
+      "job12_op11",
+      "job15_op10",
+      "job17_op12"
+    ]
+  },
+  "job18_op14": {
+    "duration": 10,
+    "machine": [
+      19
+    ],
+    "job_id": 18,
+    "operation_id": 14,
+    "neighbors": [
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job19_op5"
+    ]
+  },
+  "job19_op0": {
+    "duration": 2,
+    "machine": [
+      4
+    ],
+    "job_id": 19,
+    "operation_id": 0,
+    "neighbors": [
+      "job19_op1",
+      "job1_op12",
+      "job2_op7",
+      "job2_op13",
+      "job5_op5",
+      "job8_op12",
+      "job9_op12",
+      "job10_op10",
+      "job12_op7",
+      "job13_op2",
+      "job14_op3",
+      "job16_op5",
+      "job16_op8",
+      "job17_op8",
+      "job18_op9"
+    ]
+  },
+  "job19_op1": {
+    "duration": 100,
+    "machine": [
+      7
+    ],
+    "job_id": 19,
+    "operation_id": 1,
+    "neighbors": [
+      "job19_op2",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op8"
+    ]
+  },
+  "job19_op2": {
+    "duration": 38,
+    "machine": [
+      13
+    ],
+    "job_id": 19,
+    "operation_id": 2,
+    "neighbors": [
+      "job19_op3",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op9"
+    ]
+  },
+  "job19_op3": {
+    "duration": 21,
+    "machine": [
+      14
+    ],
+    "job_id": 19,
+    "operation_id": 3,
+    "neighbors": [
+      "job19_op4",
+      "job4_op3",
+      "job4_op8",
+      "job4_op10",
+      "job5_op13",
+      "job6_op10",
+      "job7_op4",
+      "job7_op13",
+      "job11_op3",
+      "job12_op3",
+      "job13_op4",
+      "job14_op4",
+      "job14_op13",
+      "job16_op14",
+      "job18_op6"
+    ]
+  },
+  "job19_op4": {
+    "duration": 84,
+    "machine": [
+      6
+    ],
+    "job_id": 19,
+    "operation_id": 4,
+    "neighbors": [
+      "job19_op5",
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op14"
+    ]
+  },
+  "job19_op5": {
+    "duration": 19,
+    "machine": [
+      19
+    ],
+    "job_id": 19,
+    "operation_id": 5,
+    "neighbors": [
+      "job19_op6",
+      "job0_op1",
+      "job0_op5",
+      "job2_op3",
+      "job4_op13",
+      "job5_op8",
+      "job6_op3",
+      "job10_op13",
+      "job14_op5",
+      "job15_op8",
+      "job18_op14"
+    ]
+  },
+  "job19_op6": {
+    "duration": 52,
+    "machine": [
+      9
+    ],
+    "job_id": 19,
+    "operation_id": 6,
+    "neighbors": [
+      "job19_op7",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op10",
+      "job19_op13"
+    ]
+  },
+  "job19_op7": {
+    "duration": 80,
+    "machine": [
+      5
+    ],
+    "job_id": 19,
+    "operation_id": 7,
+    "neighbors": [
+      "job19_op8",
+      "job0_op10",
+      "job3_op4",
+      "job4_op7",
+      "job4_op9",
+      "job5_op4",
+      "job5_op6",
+      "job6_op7",
+      "job7_op14",
+      "job8_op1",
+      "job8_op10",
+      "job9_op4",
+      "job11_op8",
+      "job11_op10",
+      "job11_op11",
+      "job13_op5",
+      "job13_op9",
+      "job14_op1",
+      "job14_op6",
+      "job15_op2",
+      "job17_op2"
+    ]
+  },
+  "job19_op8": {
+    "duration": 96,
+    "machine": [
+      7
+    ],
+    "job_id": 19,
+    "operation_id": 8,
+    "neighbors": [
+      "job19_op9",
+      "job0_op3",
+      "job0_op9",
+      "job2_op2",
+      "job3_op1",
+      "job4_op0",
+      "job4_op11",
+      "job5_op14",
+      "job6_op1",
+      "job7_op6",
+      "job10_op6",
+      "job11_op7",
+      "job12_op6",
+      "job13_op0",
+      "job15_op4",
+      "job15_op12",
+      "job16_op4",
+      "job19_op1"
+    ]
+  },
+  "job19_op9": {
+    "duration": 27,
+    "machine": [
+      13
+    ],
+    "job_id": 19,
+    "operation_id": 9,
+    "neighbors": [
+      "job19_op10",
+      "job1_op10",
+      "job3_op11",
+      "job5_op2",
+      "job5_op10",
+      "job7_op7",
+      "job9_op1",
+      "job9_op6",
+      "job9_op7",
+      "job10_op2",
+      "job10_op4",
+      "job11_op6",
+      "job12_op12",
+      "job13_op1",
+      "job15_op14",
+      "job19_op2"
+    ]
+  },
+  "job19_op10": {
+    "duration": 8,
+    "machine": [
+      9
+    ],
+    "job_id": 19,
+    "operation_id": 10,
+    "neighbors": [
+      "job19_op11",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op13"
+    ]
+  },
+  "job19_op11": {
+    "duration": 16,
+    "machine": [
+      17
+    ],
+    "job_id": 19,
+    "operation_id": 11,
+    "neighbors": [
+      "job19_op12",
+      "job0_op2",
+      "job1_op7",
+      "job4_op6",
+      "job8_op4",
+      "job11_op1",
+      "job11_op5",
+      "job11_op14",
+      "job12_op10",
+      "job14_op2",
+      "job16_op10",
+      "job16_op12",
+      "job17_op0",
+      "job17_op11",
+      "job17_op13",
+      "job18_op12"
+    ]
+  },
+  "job19_op12": {
+    "duration": 9,
+    "machine": [
+      15
+    ],
+    "job_id": 19,
+    "operation_id": 12,
+    "neighbors": [
+      "job19_op13",
+      "job1_op2",
+      "job1_op6",
+      "job1_op11",
+      "job2_op1",
+      "job2_op5",
+      "job3_op5",
+      "job3_op7",
+      "job3_op14",
+      "job4_op1",
+      "job4_op4",
+      "job7_op2",
+      "job11_op4",
+      "job12_op2",
+      "job13_op11",
+      "job14_op0",
+      "job15_op7",
+      "job16_op11",
+      "job16_op13",
+      "job17_op3",
+      "job18_op5"
+    ]
+  },
+  "job19_op13": {
+    "duration": 85,
+    "machine": [
+      9
+    ],
+    "job_id": 19,
+    "operation_id": 13,
+    "neighbors": [
+      "job19_op14",
+      "job0_op0",
+      "job0_op4",
+      "job0_op14",
+      "job2_op0",
+      "job2_op11",
+      "job2_op14",
+      "job4_op2",
+      "job5_op1",
+      "job5_op9",
+      "job5_op11",
+      "job6_op5",
+      "job6_op8",
+      "job7_op1",
+      "job8_op6",
+      "job8_op14",
+      "job9_op9",
+      "job10_op0",
+      "job11_op13",
+      "job13_op10",
+      "job14_op8",
+      "job15_op11",
+      "job16_op6",
+      "job16_op9",
+      "job17_op14",
+      "job18_op2",
+      "job19_op6",
+      "job19_op10"
+    ]
+  },
+  "job19_op14": {
+    "duration": 42,
+    "machine": [
+      6
+    ],
+    "job_id": 19,
+    "operation_id": 14,
+    "neighbors": [
+      "job1_op1",
+      "job2_op6",
+      "job2_op12",
+      "job3_op9",
+      "job5_op0",
+      "job9_op0",
+      "job9_op2",
+      "job14_op12",
+      "job15_op3",
+      "job15_op5",
+      "job19_op4"
+    ]
+  }
+}

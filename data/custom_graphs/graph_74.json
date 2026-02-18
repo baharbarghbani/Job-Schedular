@@ -1,0 +1,303 @@
+{
+  "job0_op0": {
+    "duration": 67,
+    "machine": [
+      8
+    ],
+    "job_id": 0,
+    "operation_id": 0,
+    "neighbors": [
+      "job0_op1",
+      "job1_op3"
+    ]
+  },
+  "job0_op1": {
+    "duration": 25,
+    "machine": [
+      18
+    ],
+    "job_id": 0,
+    "operation_id": 1,
+    "neighbors": [
+      "job0_op2",
+      "job3_op3"
+    ]
+  },
+  "job0_op2": {
+    "duration": 29,
+    "machine": [
+      3
+    ],
+    "job_id": 0,
+    "operation_id": 2,
+    "neighbors": [
+      "job0_op3",
+      "job2_op4",
+      "job3_op0",
+      "job3_op1"
+    ]
+  },
+  "job0_op3": {
+    "duration": 26,
+    "machine": [
+      14
+    ],
+    "job_id": 0,
+    "operation_id": 3,
+    "neighbors": [
+      "job0_op4",
+      "job1_op0"
+    ]
+  },
+  "job0_op4": {
+    "duration": 49,
+    "machine": [
+      19
+    ],
+    "job_id": 0,
+    "operation_id": 4,
+    "neighbors": [
+      "job3_op4"
+    ]
+  },
+  "job1_op0": {
+    "duration": 90,
+    "machine": [
+      14
+    ],
+    "job_id": 1,
+    "operation_id": 0,
+    "neighbors": [
+      "job1_op1",
+      "job0_op3"
+    ]
+  },
+  "job1_op1": {
+    "duration": 95,
+    "machine": [
+      17
+    ],
+    "job_id": 1,
+    "operation_id": 1,
+    "neighbors": [
+      "job1_op2",
+      "job2_op2",
+      "job4_op0"
+    ]
+  },
+  "job1_op2": {
+    "duration": 73,
+    "machine": [
+      7
+    ],
+    "job_id": 1,
+    "operation_id": 2,
+    "neighbors": [
+      "job1_op3",
+      "job2_op3"
+    ]
+  },
+  "job1_op3": {
+    "duration": 3,
+    "machine": [
+      8
+    ],
+    "job_id": 1,
+    "operation_id": 3,
+    "neighbors": [
+      "job1_op4",
+      "job0_op0"
+    ]
+  },
+  "job1_op4": {
+    "duration": 4,
+    "machine": [
+      0
+    ],
+    "job_id": 1,
+    "operation_id": 4,
+    "neighbors": [
+      "job4_op2"
+    ]
+  },
+  "job2_op0": {
+    "duration": 91,
+    "machine": [
+      16
+    ],
+    "job_id": 2,
+    "operation_id": 0,
+    "neighbors": [
+      "job2_op1"
+    ]
+  },
+  "job2_op1": {
+    "duration": 70,
+    "machine": [
+      11
+    ],
+    "job_id": 2,
+    "operation_id": 1,
+    "neighbors": [
+      "job2_op2"
+    ]
+  },
+  "job2_op2": {
+    "duration": 97,
+    "machine": [
+      17
+    ],
+    "job_id": 2,
+    "operation_id": 2,
+    "neighbors": [
+      "job2_op3",
+      "job1_op1",
+      "job4_op0"
+    ]
+  },
+  "job2_op3": {
+    "duration": 84,
+    "machine": [
+      7
+    ],
+    "job_id": 2,
+    "operation_id": 3,
+    "neighbors": [
+      "job2_op4",
+      "job1_op2"
+    ]
+  },
+  "job2_op4": {
+    "duration": 6,
+    "machine": [
+      3
+    ],
+    "job_id": 2,
+    "operation_id": 4,
+    "neighbors": [
+      "job0_op2",
+      "job3_op0",
+      "job3_op1"
+    ]
+  },
+  "job3_op0": {
+    "duration": 26,
+    "machine": [
+      3
+    ],
+    "job_id": 3,
+    "operation_id": 0,
+    "neighbors": [
+      "job3_op1",
+      "job0_op2",
+      "job2_op4"
+    ]
+  },
+  "job3_op1": {
+    "duration": 43,
+    "machine": [
+      3
+    ],
+    "job_id": 3,
+    "operation_id": 1,
+    "neighbors": [
+      "job3_op2",
+      "job0_op2",
+      "job2_op4",
+      "job3_op0"
+    ]
+  },
+  "job3_op2": {
+    "duration": 75,
+    "machine": [
+      10
+    ],
+    "job_id": 3,
+    "operation_id": 2,
+    "neighbors": [
+      "job3_op3"
+    ]
+  },
+  "job3_op3": {
+    "duration": 76,
+    "machine": [
+      18
+    ],
+    "job_id": 3,
+    "operation_id": 3,
+    "neighbors": [
+      "job3_op4",
+      "job0_op1"
+    ]
+  },
+  "job3_op4": {
+    "duration": 83,
+    "machine": [
+      19
+    ],
+    "job_id": 3,
+    "operation_id": 4,
+    "neighbors": [
+      "job0_op4"
+    ]
+  },
+  "job4_op0": {
+    "duration": 75,
+    "machine": [
+      17
+    ],
+    "job_id": 4,
+    "operation_id": 0,
+    "neighbors": [
+      "job4_op1",
+      "job1_op1",
+      "job2_op2"
+    ]
+  },
+  "job4_op1": {
+    "duration": 86,
+    "machine": [
+      12
+    ],
+    "job_id": 4,
+    "operation_id": 1,
+    "neighbors": [
+      "job4_op2",
+      "job4_op4"
+    ]
+  },
+  "job4_op2": {
+    "duration": 6,
+    "machine": [
+      0
+    ],
+    "job_id": 4,
+    "operation_id": 2,
+    "neighbors": [
+      "job4_op3",
+      "job1_op4"
+    ]
+  },
+  "job4_op3": {
+    "duration": 30,
+    "machine": [
+      4
+    ],
+    "job_id": 4,
+    "operation_id": 3,
+    "neighbors": [
+      "job4_op4"
+    ]
+  },
+  "job4_op4": {
+    "duration": 82,
+    "machine": [
+      12
+    ],
+    "job_id": 4,
+    "operation_id": 4,
+    "neighbors": [
+      "job4_op1"
+    ]
+  }
+}

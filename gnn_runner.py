@@ -1,5 +1,4 @@
-# Improved GNN Policy for Job Shop Scheduling - Simplified
-# Minimal output version: train, evaluate, save
+# use evaluate_gnn_policy(instance) to get makespan of scheduling that instance with gnn
 
 import random
 import torch
